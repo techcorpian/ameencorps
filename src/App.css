@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.main{
+  background-image: url('./assets/bgimg.png');
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-container {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+  background-image: url('./assets/bgimg.png'); /* Replace with your image path */
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Black overlay with 0.4 opacity */
+}
